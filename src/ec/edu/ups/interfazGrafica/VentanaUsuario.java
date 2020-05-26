@@ -36,7 +36,7 @@ public class VentanaUsuario extends Frame {
 
     public VentanaUsuario() {
         
-        this.setTitle("Usuario");
+        this.setTitle("Agenda Telefonica UPS");
         this.setSize(600, 400);
         this.setLocationRelativeTo(this);
         this.setVisible(true);

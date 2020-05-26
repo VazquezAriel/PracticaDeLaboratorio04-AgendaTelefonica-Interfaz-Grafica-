@@ -39,7 +39,7 @@ public class VentanaUsuarios extends Frame{
 
     public VentanaUsuarios() {
         
-        this.setTitle("Registro");
+        this.setTitle("Usarios");
         this.setSize(600, 400);
         this.setLocationRelativeTo(this);
         this.setVisible(true);

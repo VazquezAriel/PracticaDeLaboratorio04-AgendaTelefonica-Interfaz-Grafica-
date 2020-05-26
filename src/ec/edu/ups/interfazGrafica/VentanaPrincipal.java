@@ -30,7 +30,7 @@ public class VentanaPrincipal extends Frame {
 
     public VentanaPrincipal() {
 
-        this.setTitle("Ventana Principal");
+        this.setTitle("Agenda Telefonica UPS");
         this.setSize(600, 400);
         this.setLocationRelativeTo(this);
         this.setVisible(true);
