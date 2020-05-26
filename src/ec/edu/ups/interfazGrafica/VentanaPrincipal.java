@@ -19,15 +19,16 @@ import java.awt.TextField;
  *
  * @author ariel
  */
-public class Test {
+public class VentanaPrincipal {
     
     public static void main(String[] args) {
        
        Ventana ventanaPrincipal = new Ventana("Agenda Telefonica UPS");
        
+       
        Panel panelPrincipal = new Panel(new GridLayout(0, 3));
        Panel panelVacio = new Panel();
-       Panel panelBotones = new Panel(new GridLayout(5, 0, 0, 15));
+       Panel panelBotones = new Panel(new GridLayout(5, 1, 0, 15));
        
        Button bRegistrarse = new Button("Registrarse");
        Button bIniciarSesion = new Button("Iniciar secion");
@@ -40,7 +41,7 @@ public class Test {
        panelBotones.add(bUsuariosRegistrados);
        panelBotones.add(bTelefonosRegistrados);
        panelBotones.add(bSalir);
-       
+               
        panelPrincipal.add(panelVacio);
        panelPrincipal.add(panelBotones);
        
