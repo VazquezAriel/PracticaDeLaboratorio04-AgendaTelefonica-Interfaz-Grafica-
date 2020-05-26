@@ -82,5 +82,4 @@ public class VentanaUsuarios extends Frame{
         
     }
     
-    
 }
