@@ -16,8 +16,8 @@ import ec.edu.ups.interfazGrafica.VentanaRegistro;
 public class Test {
     public static void main(String[] args) {
         
-        //VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
+        VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
         VentanaRegistro ventaRegistro = new VentanaRegistro();
-        //VentanaIniciarSecion ventanIniciarSecion= new VentanaIniciarSecion();
+        VentanaIniciarSecion ventanIniciarSecion= new VentanaIniciarSecion();
     }
 }
