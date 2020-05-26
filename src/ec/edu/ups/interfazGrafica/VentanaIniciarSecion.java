@@ -35,12 +35,12 @@ public class VentanaIniciarSecion extends Frame {
     public VentanaIniciarSecion() {
         
         this.setTitle("Iniciar Secion");
-        this.setSize(600, 400);
+        this.setSize(450, 200);
         this.setLocationRelativeTo(this);
         this.setVisible(true);
         
         panelPrincipal = new Panel(new BorderLayout());
-        panelInicioSecion = new Panel(new GridLayout(4, 2, 0, 75));
+        panelInicioSecion = new Panel(new GridLayout(4, 2, 0, 5));
         panelBotones = new Panel();
         
         botonIngresar = new Button("Ingresar");
