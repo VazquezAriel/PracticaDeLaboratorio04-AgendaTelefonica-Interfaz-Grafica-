@@ -5,6 +5,7 @@
  */
 package ec.edu.ups.Test;
 
+import ec.edu.ups.interfazGrafica.VentanaAñadirTelefono;
 import ec.edu.ups.interfazGrafica.VentanaIniciarSecion;
 import ec.edu.ups.interfazGrafica.VentanaPrincipal;
 import ec.edu.ups.interfazGrafica.VentanaRegistro;
@@ -24,6 +25,7 @@ public class Test {
         //VentanaIniciarSecion ventanIniciarSecion = new VentanaIniciarSecion();
         //VentanaUsuarios ventanaUsuarios = new VentanaUsuarios();
         //VentanaTelefonos ventanaTelefonos = new VentanaTelefonos();
-        VentanaUsuario ventanaUsuario = new VentanaUsuario();
+        //VentanaUsuario ventanaUsuario = new VentanaUsuario();
+        VentanaAñadirTelefono ventanaAñadirTelefono = new VentanaAñadirTelefono();
     }
 }
