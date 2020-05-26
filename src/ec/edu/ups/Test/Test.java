@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ec.edu.ups.Test;
+
+import ec.edu.ups.interfazGrafica.VentanaIniciarSecion;
+import ec.edu.ups.interfazGrafica.VentanaPrincipal;
+import ec.edu.ups.interfazGrafica.VentanaRegistro;
+
+/**
+ *
+ * @author ariel
+ */
+public class Test {
+    public static void main(String[] args) {
+        
+        //VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
+        VentanaRegistro ventaRegistro = new VentanaRegistro();
+        //VentanaIniciarSecion ventanIniciarSecion= new VentanaIniciarSecion();
+    }
+}

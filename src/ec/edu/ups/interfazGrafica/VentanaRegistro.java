@@ -7,6 +7,7 @@ package ec.edu.ups.interfazGrafica;
 
 import java.awt.BorderLayout;
 import java.awt.Button;
+import java.awt.Frame;
 import java.awt.GridLayout;
 import java.awt.Label;
 import java.awt.Panel;
@@ -16,24 +17,44 @@ import java.awt.TextField;
  *
  * @author ariel
  */
-public class VentanaRegistro {
+public class VentanaRegistro extends Frame {
 
-    public static void main(String[] args) {
-        Ventana ventanaRegistro = new Ventana("Registro");
+    //Paneles
+    private Panel panelPrincipal;
+    private Panel panelRegistro;
+    private Panel panelBotones;
 
-        Panel panelPrincipal = new Panel(new BorderLayout());
-        Panel panelRegistro = new Panel(new GridLayout(6, 2, 10, 10));
-        Panel panelBotones = new Panel();
+    //Botones
+    private Button bRegistrar;
+    private Button bVolver;
 
-        Button bRegistrar = new Button("Registrar");
-        Button bVolver = new Button("Volver");
+    //Textos
+    private Label cedula;
+    private Label nombre;
+    private Label apellido;
+    private Label correoElectronico;
+    private Label contraseña;
 
-        Label cedula = new Label("Cedula:", Label.CENTER);
-        Label nombre = new Label("Nombre:", Label.CENTER);
-        Label apellido = new Label("Apellido:", Label.CENTER);
-        Label correoElectronico = new Label("Correo Electronico:", Label.CENTER);
-        Label contraseña = new Label("Contraseña:", Label.CENTER);
+    public VentanaRegistro() {
+        
+        this.setTitle("Registro");
+        this.setSize(600, 400);
+        this.setLocationRelativeTo(this);
+        this.setVisible(true);
+        
+        panelPrincipal = new Panel(new BorderLayout());
+        panelRegistro = new Panel(new GridLayout(5, 2, 10, 25));
+        panelBotones = new Panel();
 
+        bRegistrar = new Button("Registrar");
+        bVolver = new Button("Volver");
+
+        cedula = new Label("Cedula:", Label.CENTER);
+        nombre = new Label("Nombre:", Label.CENTER);
+        apellido = new Label("Apellido:", Label.CENTER);
+        correoElectronico = new Label("Correo Electronico:", Label.CENTER);
+        contraseña = new Label("Contraseña:", Label.CENTER);
+        
         panelRegistro.add(cedula);
         panelRegistro.add(nombre);
         panelRegistro.add(new TextField());
@@ -47,12 +68,13 @@ public class VentanaRegistro {
         panelRegistro.add(new TextField());
         panelBotones.add(bRegistrar);
         panelBotones.add(bVolver);
-
+        
         panelPrincipal.add(panelRegistro, BorderLayout.CENTER);
         panelPrincipal.add(panelBotones, BorderLayout.SOUTH);
         panelPrincipal.add(new Panel(), BorderLayout.EAST);
         panelPrincipal.add(new Panel(), BorderLayout.WEST);
-        
-        ventanaRegistro.add(panelPrincipal);
+
+        this.add(panelPrincipal);
     }
+
 }
