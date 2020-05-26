@@ -9,6 +9,7 @@ import ec.edu.ups.interfazGrafica.VentanaIniciarSecion;
 import ec.edu.ups.interfazGrafica.VentanaPrincipal;
 import ec.edu.ups.interfazGrafica.VentanaRegistro;
 import ec.edu.ups.interfazGrafica.VentanaTelefonos;
+import ec.edu.ups.interfazGrafica.VentanaUsuario;
 import ec.edu.ups.interfazGrafica.VentanaUsuarios;
 
 /**
@@ -22,6 +23,7 @@ public class Test {
         //VentanaRegistro ventaRegistro = new VentanaRegistro();
         //VentanaIniciarSecion ventanIniciarSecion = new VentanaIniciarSecion();
         //VentanaUsuarios ventanaUsuarios = new VentanaUsuarios();
-        VentanaTelefonos ventanaTelefonos = new VentanaTelefonos();
+        //VentanaTelefonos ventanaTelefonos = new VentanaTelefonos();
+        VentanaUsuario ventanaUsuario = new VentanaUsuario();
     }
 }
