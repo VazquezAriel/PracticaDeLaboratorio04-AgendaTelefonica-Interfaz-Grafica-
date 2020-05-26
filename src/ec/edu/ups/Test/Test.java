@@ -8,6 +8,7 @@ package ec.edu.ups.Test;
 import ec.edu.ups.interfazGrafica.VentanaIniciarSecion;
 import ec.edu.ups.interfazGrafica.VentanaPrincipal;
 import ec.edu.ups.interfazGrafica.VentanaRegistro;
+import ec.edu.ups.interfazGrafica.VentanaUsuarios;
 
 /**
  *
@@ -16,8 +17,9 @@ import ec.edu.ups.interfazGrafica.VentanaRegistro;
 public class Test {
     public static void main(String[] args) {
         
-        VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-        VentanaRegistro ventaRegistro = new VentanaRegistro();
-        VentanaIniciarSecion ventanIniciarSecion= new VentanaIniciarSecion();
+        //VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
+        //VentanaRegistro ventaRegistro = new VentanaRegistro();
+        //VentanaIniciarSecion ventanIniciarSecion = new VentanaIniciarSecion();
+        VentanaUsuarios ventanaUsuarios = new VentanaUsuarios();
     }
 }
