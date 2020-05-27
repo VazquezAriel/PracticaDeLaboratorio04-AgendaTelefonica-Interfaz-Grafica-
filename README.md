@@ -31,3 +31,4 @@ Diseño de una interfaz de usuario para el sistema de la Agenda Telefónica
 + Se creo una clase Test en el paquete ec.edu.ups.test que nos servirá para crear en dicha clase el método main e instanciar la Clase VentanaUsuario para mostrar la ventana  
 + Ventana creada:
 
+![](https://github.com/VazquezAriel/PracticaDeLaboratorio04-AgendaTelefonica-Interfaz-Grafica-/blob/master/Ventana.png)
